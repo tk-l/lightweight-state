@@ -1,0 +1,37 @@
+@use '@angular/material' as mat;
+// Import Angular Material styles:
+
+// Center content vertically and horizontally:
+:host{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+// Display content in a column
+.wrapper1{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        // Adjust margin-bottom:
+        margin-bottom: 2rem;
+    }
+}
+
+.wrapper2{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 0.9rem;
+
+    a{
+        // color: mat.$primary;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
