@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MaterialModule } from './material.component';
 
 @Component({
-    imports: [RouterModule, MatSlideToggleModule],
-    selector: 'flight-demo-root',
+    imports: [RouterModule, MaterialModule],
+    selector: 'miles-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 })
