@@ -1,12 +1,43 @@
-.content {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+mat-sidenav {
+    width: 250px;
 }
 
-p {
-    font-size: 3.5rem;
-    color: darkgreen;
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+    height: 100%;
+}
+
+mat-toolbar {
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+a:hover,
+a:active {
+  color: lightgray;
+}
+
+.navigation-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  height: 30px;
+  margin: 0 auto;
+  padding-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.label {
+  display: inline-block;
+  line-height: 30px;
+  margin: 0;
 }
