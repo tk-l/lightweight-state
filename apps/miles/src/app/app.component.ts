@@ -6,7 +6,7 @@ import { MaterialModule } from './material.component';
     imports: [RouterModule, MaterialModule],
     selector: 'miles-root',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'miles';

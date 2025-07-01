@@ -25,7 +25,7 @@
         ],
         "styles": [
           "@angular/material/prebuilt-themes/azure-blue.css",
-          "apps/miles/src/styles.css"
+          "apps/miles/src/styles.scss"
         ],
         "scripts": []
       },
@@ -83,6 +83,11 @@
       "options": {
         "jestConfig": "apps/miles/jest.config.ts"
       }
+    }
+  },
+  "generators": {
+    "@schematics/angular:component": {
+      "style": "scss"
     }
   }
 }
